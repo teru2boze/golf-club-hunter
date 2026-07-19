@@ -160,32 +160,33 @@ export default function Home() {
   }
 
   if (start) {
-    return (
-      <main className="flex min-h-screen items-center justify-center bg-green-50 px-6 py-10">
-           <h2 className="text-3xl font-bold text-green-700">
-            クラブ診断
-          </h2>
-          <p className="mt-3 text-sm font-bold text-green-600">
-  質問 {step} / 3
-</p>
+  return (
+    <main className="flex min-h-screen items-center justify-center bg-green-50 px-6 py-10">
+      <div className="w-full max-w-[600px] rounded-3xl bg-white p-10 text-center shadow-2xl">
+        <h2 className="text-3xl font-bold text-green-700">
+          クラブ診断
+        </h2>
 
-<div className="mt-2 h-3 w-full rounded-full bg-gray-200">
- <div
-  className="h-3 rounded-full bg-green-600 transition-all duration-300"
-  style={{ width: (step / 3) * 100 + "%" }}
-/>
-</div>
+        <p className="mt-3 text-sm font-bold text-green-600">
+          質問 {step} / 3
+        </p>
 
+        <div className="mt-2 h-3 w-full rounded-full bg-gray-200">
+          <div
+            className="h-3 rounded-full bg-green-600 transition-all duration-300"
+            style={{ width: (step / 3) * 100 + "%" }}
+          />
+        </div>
 
-<p className="mt-3 text-3xl font-bold text-gray-800">
-  {step === 1
-    ? "Q1. ゴルフ歴は？"
-    : step === 2
-    ? "Q2. 一番悩んでいることは？"
-    : "Q3. ドライバーで重視することは？"}
-</p>
+        <p className="mt-6 text-3xl font-bold text-gray-800">
+          {step === 1
+            ? "Q1. ゴルフ歴は？"
+            : step === 2
+            ? "Q2. 一番悩んでいることは？"
+            : "Q3. ドライバーで重視することは？"}
+        </p>
 
-          <div className="mt-8 grid gap-4">
+        <div className="mt-8 grid gap-4">
             {step === 1 ? (
               <>
                 <button
@@ -292,6 +293,7 @@ export default function Home() {
                 </button>
               </>
             )}
+          </div>
           </div>
         </main>
     );
