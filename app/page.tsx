@@ -170,6 +170,12 @@ export default function Home() {
           
   質問 {step} / 3
 </p>
+<div className="mt-3 h-3 w-full rounded-full bg-gray-200">
+  <div
+    className="h-3 rounded-full bg-green-600 transition-all duration-300"
+    style={{ width: ${(step / 3) * 100}% }}
+  />
+</div>
 
 <p className="mt-3 text-3xl font-bold text-gray-800">
   {step === 1
