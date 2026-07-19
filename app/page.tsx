@@ -291,9 +291,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-green-50 px-6 py-10">
       <section className="mx-auto max-w-4xl text-center">
-        <p className="mb-3 text-sm font-bold uppercase tracking-widest text-green-700">
-  GOLF CLUB HUNTER
-</p>
+        
 
         <h1 className="text-5xl font-bold text-green-900">
           🏌️ あなたに合うゴルフクラブを3分で診断
