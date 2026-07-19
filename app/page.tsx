@@ -296,11 +296,11 @@ export default function Home() {
         </p>
 
         <h1 className="text-5xl font-bold text-green-900">
-          🏌️ ゴルフクラブハンター
+          🏌️ あなたに合うゴルフクラブを3分で診断
         </h1>
 
         <p className="mt-6 text-xl text-gray-700">
-          あなたに合うクラブを、迷わず見つけよう。
+          スコア・経験・悩みから、あなたに合うおすすめクラブを3本提案します。
         </p>
 
         <button
@@ -310,9 +310,9 @@ export default function Home() {
             setResult(false);
             setConcern("");
           }}
-          className="mt-8 rounded-xl bg-green-700 px-8 py-4 text-xl font-bold text-white"
+          className="mt-8 rounded-2xl bg-green-700 px-10 py-5 text-2xl font-bold text-white shadow-lg hover:bg-green-800 transition"
         >
-          クラブ診断を始める
+          あなたに合うクラブを診断する
         </button>
 
         <div className="mt-12 grid gap-4 md:grid-cols-3">
