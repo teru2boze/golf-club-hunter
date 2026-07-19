@@ -317,14 +317,13 @@ export default function Home() {
 
         <div className="mt-12 grid gap-4 md:grid-cols-3">
           <div className="rounded-2xl bg-white p-6 shadow">
-            <div className="text-4xl">🧠</div>
-
+            <div className="text-6xl">🏌️</div>
             <h2 className="mt-3 text-xl font-bold">
-              クラブ診断
+              3分診断
             </h2>
 
             <p className="mt-2 text-gray-600">
-              スコアや悩みからおすすめを提案
+              たった3分で最適クラブが分かる
             </p>
           </div>
 
