@@ -290,16 +290,15 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-green-50 px-6 py-10">
-      <section className="mx-auto max-w-4xl text-center">
+      <section className="mx-auto max-w-7xl text-center">
         
 
-        <h1 className="text-5xl font-bold text-green-900">
-          🏌️ あなたに合うゴルフクラブを3分で診断
-        </h1>
+        <h1 className="text-3xl md:text-5xl font-extrabold text-green-900 leading-tight md:whitespace-nowrap">
+</h1>
 
         <p className="mt-6 text-xl text-gray-700">
           スコア・経験・悩みから、
-          あなたに最適なドライバー・アイアン・UTを診断します。
+あなたに最適なクラブを3本提案します。
         </p>
 
         <button
@@ -311,7 +310,7 @@ export default function Home() {
           }}
           className="mt-8 rounded-2xl bg-green-700 px-10 py-5 text-2xl font-bold text-white shadow-lg hover:bg-green-800 transition"
         >
-          無料で診断を始める
+          無料で診断スタート
         </button>
 
         <div className="mt-12 grid gap-4 md:grid-cols-3">
