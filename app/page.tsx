@@ -162,25 +162,29 @@ export default function Home() {
   if (start) {
     return (
       <main className="flex min-h-screen items-center justify-center bg-green-50 px-6 py-10">
-        <div className="w-full max-w-[500px] rounded-3xl bg-white p-10 text-center shadow-xl">
-          <h2 className="text-3xl font-bold text-green-700">
+           <h2 className="text-3xl font-bold text-green-700">
             クラブ診断
           </h2>
 
-          <p className="mt-8 text-xl">
-            {step === 1
-              ? "Q1. ゴルフ歴は？"
-              : step === 2
-              ? "Q2. 一番悩んでいることは？"
-              : "Q3. ドライバーで重視することは？"}
-          </p>
+          <p className="text-sm font-bold text-green-600">
+          
+  質問 {step} / 3
+</p>
+
+<p className="mt-3 text-3xl font-bold text-gray-800">
+  {step === 1
+    ? "Q1. ゴルフ歴は？"
+    : step === 2
+    ? "Q2. 一番悩んでいることは？"
+    : "Q3. ドライバーで重視することは？"}
+</p>
 
           <div className="mt-8 grid gap-4">
             {step === 1 ? (
               <>
                 <button
                   onClick={() => setStep(2)}
-                  className="rounded-xl bg-green-600 py-3 text-white"
+                  className="rounded-2xl bg-green-600 py-4 text-xl font-bold text-white shadow-lg hover:scale-105 transition"
                 >
                   初心者
                 </button>
