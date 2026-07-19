@@ -294,7 +294,7 @@ export default function Home() {
         
 
         <h1 className="text-3xl md:text-5xl font-extrabold text-green-900 leading-tight md:whitespace-nowrap">
-          🏌️ あなたに最適なゴルフクラブ診断
+          🏌️ あなたに合うゴルフクラブを3分で診断
 </h1>
 
         <p className="mt-6 text-xl text-gray-700">
