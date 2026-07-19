@@ -294,11 +294,11 @@ export default function Home() {
         
 
         <h1 className="text-3xl md:text-5xl font-extrabold text-green-900 leading-tight md:whitespace-nowrap">
+          🏌️ あなたに最適なゴルフクラブ診断
 </h1>
 
         <p className="mt-6 text-xl text-gray-700">
-          スコア・経験・悩みから、
-あなたに最適なクラブを3本提案します。
+          スコア・経験・悩みから、あなたに最適なクラブを3本提案します。
         </p>
 
         <button
