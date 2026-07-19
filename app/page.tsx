@@ -298,7 +298,8 @@ export default function Home() {
         </h1>
 
         <p className="mt-6 text-xl text-gray-700">
-          スコア・経験・悩みから、あなたに合うおすすめクラブを3本提案します。
+          スコア・経験・悩みから、
+          あなたに最適なドライバー・アイアン・UTを診断します。
         </p>
 
         <button
@@ -310,12 +311,12 @@ export default function Home() {
           }}
           className="mt-8 rounded-2xl bg-green-700 px-10 py-5 text-2xl font-bold text-white shadow-lg hover:bg-green-800 transition"
         >
-          あなたに合うクラブを診断する
+          無料で診断を始める
         </button>
 
         <div className="mt-12 grid gap-4 md:grid-cols-3">
           <div className="rounded-2xl bg-white p-6 shadow">
-            <div className="text-6xl">🏌️</div>
+            <div className="text-6xl">🎯</div>
             <h2 className="mt-3 text-xl font-bold">
               3分診断
             </h2>
