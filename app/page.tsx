@@ -165,17 +165,17 @@ export default function Home() {
            <h2 className="text-3xl font-bold text-green-700">
             クラブ診断
           </h2>
-
-          <p className="text-sm font-bold text-green-600">
-          
+          <p className="mt-3 text-sm font-bold text-green-600">
   質問 {step} / 3
 </p>
-<div className="mt-3 h-3 w-full rounded-full bg-gray-200">
-  <div
-    className="h-3 rounded-full bg-green-600 transition-all duration-300"
-    style={{ width: ${(step / 3) * 100}% }}
-  />
+
+<div className="mt-2 h-3 w-full rounded-full bg-gray-200">
+ <div
+  className="h-3 rounded-full bg-green-600 transition-all duration-300"
+  style={{ width: (step / 3) * 100 + "%" }}
+/>
 </div>
+
 
 <p className="mt-3 text-3xl font-bold text-gray-800">
   {step === 1
@@ -293,8 +293,7 @@ export default function Home() {
               </>
             )}
           </div>
-        </div>
-      </main>
+        </main>
     );
   }
 
