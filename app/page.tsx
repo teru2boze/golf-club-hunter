@@ -11,20 +11,51 @@ export default function Home() {
   const [recommend, setRecommend] = useState(0);
   const [concern, setConcern] = useState("");
 
-  const second = (recommend + 1) % clubs.length;
-  const third = (recommend + 2) % clubs.length;
+
+  const second =
+  recommend === 6
+    ? 0
+    : recommend === 5
+      ? 0
+      : recommend === 4
+        ? 3
+        : (recommend + 1) % clubs.length;
+
+const third =
+  recommend === 6
+    ? 5
+    : recommend === 5
+      ? 6
+      : recommend === 4
+        ? 5
+        : (recommend + 2) % clubs.length;
 
   const showResult = (priority: string) => {
     let selected = 0;
 
     if (concern === "distance") {
-      selected = priority === "distance" ? 1 : 0;
+  selected =
+    priority === "distance"
+      ? 1
+      : priority === "workability"
+        ? 3
+        : 0;
     } else if (concern === "slice") {
-      selected = 2;
+  selected =
+    priority === "forgiveness"
+      ? 6
+      : priority === "distance"
+        ? 1
+        : 2;
     } else if (concern === "hook") {
-      selected = priority === "workability" ? 4 : 0;
+  selected = priority === "distance" ? 3 : 4;
     } else if (concern === "mishit") {
-      selected = priority === "distance" ? 1 : 0;
+  selected =
+    priority === "forgiveness"
+      ? 5
+      : priority === "workability"
+        ? 3
+        : 0;
     } else if (concern === "workability") {
       selected = priority === "forgiveness" ? 3 : 4;
     }
@@ -191,28 +222,28 @@ export default function Home() {
               <>
                 <button
                   onClick={() => setStep(2)}
-                  className="rounded-2xl bg-green-600 py-4 text-xl font-bold text-white shadow-lg hover:scale-105 transition"
+                  className="h-12 rounded-xl bg-green-600 text-base font-bold text-white transition hover:bg-green-700"
                 >
                   初心者
                 </button>
 
                 <button
                   onClick={() => setStep(2)}
-                  className="rounded-xl bg-green-600 py-3 text-white"
+                  className="h-12 rounded-xl bg-green-600 text-base font-bold text-white transition hover:bg-green-700"
                 >
                   100切り
                 </button>
 
                 <button
                   onClick={() => setStep(2)}
-                  className="rounded-xl bg-green-600 py-3 text-white"
+                  className="h-12 rounded-xl bg-green-600 text-base font-bold text-white transition hover:bg-green-700"
                 >
                   90切り
                 </button>
 
                 <button
                   onClick={() => setStep(2)}
-                  className="rounded-xl bg-green-600 py-3 text-white"
+                  className="h-12 rounded-xl bg-green-600 text-base font-bold text-white transition hover:bg-green-700"
                 >
                   シングル
                 </button>
@@ -291,6 +322,12 @@ export default function Home() {
                 >
                   やさしさ重視
                 </button>
+                <button
+  onClick={() => showResult("workability")}
+  className="rounded-xl bg-green-600 py-3 text-white"
+>
+  操作性重視
+</button>
               </>
             )}
           </div>
@@ -386,10 +423,32 @@ export default function Home() {
                 <h3 className="mt-4 text-center text-xl font-bold">
                   {club.name}
                 </h3>
-
+<p className="text-center text-yellow-500">
+  ★★★★★
+</p>
                 <p className="mt-2 text-center text-gray-600">
                   {club.comment}
                 </p>
+                <p className="text-center text-yellow-500 text-2xl">
+  🥇 おすすめ No.1
+</p>
+                <div className="mt-4 space-y-1">
+  {club.recommendedFor.map((item) => (
+    <p key={item} className="text-sm text-green-700">
+      ✅ {item}
+    </p>
+  ))}
+</div>
+<p className="mt-4 font-bold">
+  新品：{club.price}
+</p>
+
+<p className="text-gray-600">
+  中古：{club.usedPrice}
+</p>
+<div className="mt-4 rounded-xl bg-green-600 py-3 text-center font-bold text-white">
+  詳細を見る
+</div>
               </Link>
             ))}
           </div>

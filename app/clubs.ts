@@ -5,7 +5,8 @@ export const clubs = [
     maker: "PING",
     type: "安定性",
     image: "/drivers/ping-g440.jpg",
-    comment: "曲がりにくくミスに強い",
+    comment:
+  "PING G440 MAXは、直進性とやさしさを重視して開発されたドライバーです。ミスヒットしても飛距離が落ちにくく、スライスに悩むゴルファーにもおすすめ。初心者から100切りを目指す方はもちろん、安定したティーショットを求める上級者まで幅広く満足できる1本です。",
     price: "89,800円",
 usedPrice: "59,800円",
 rating: 5,
@@ -21,6 +22,7 @@ recommendedFor: [
 newUrl: "https://www.amazon.co.jp/s?k=PING+G440+MAX+ドライバー",
 usedUrl: "https://www.golfpartner.co.jp/search/?keyword=PING%20G440",
 rakutenUrl: "https://search.rakuten.co.jp/search/mall/PING+G440+MAX+ドライバー/",
+rivals: [2, 3],
   },
   {
     id: 2,
@@ -28,7 +30,7 @@ rakutenUrl: "https://search.rakuten.co.jp/search/mall/PING+G440+MAX+ドライバ
     maker: "TaylorMade",
     type: "飛距離",
     image: "/drivers/qi35-max.jpg",
-    comment: "飛距離とやさしさのバランス",
+    comment:   "TaylorMade Qi35 MAXは、高い直進性と飛距離性能を両立したドライバーです。ヘッドの安定感が高く、ミスヒット時でも大きく曲がりにくいのが特徴。飛距離を伸ばしたい中級者はもちろん、やさしさも重視したいゴルファーにおすすめの1本です。",
     price: "99,800円",
 usedPrice: "69,800円",
 rating: 5,
@@ -43,6 +45,7 @@ recommendedFor: [
 newUrl: "https://www.amazon.co.jp/s?k=Qi35+MAX+ドライバー",
 usedUrl: "https://www.golfpartner.co.jp/search/?keyword=Qi35%20MAX",
 rakutenUrl: "https://search.rakuten.co.jp/search/mall/Qi35+MAX+ドライバー/",
+rivals: [1, 3],
   },
   {
     id: 3,
@@ -50,7 +53,7 @@ rakutenUrl: "https://search.rakuten.co.jp/search/mall/Qi35+MAX+ドライバー/"
     maker: "Callaway",
     type: "つかまり",
     image: "/drivers/elyte-x.avif",
-    comment: "スライスしにくい",
+    comment:   "Callaway ELYTE Xは、つかまりの良さと高い直進性を備えたやさしいドライバーです。スライスを抑えやすく、ミスヒット時でも安定した弾道を出しやすいのが特徴。初心者から100切りを目指すゴルファーまで、安心して使いやすい1本です。",
     price: "94,800円",
 usedPrice: "64,800円",
 rating: 4,
@@ -65,6 +68,7 @@ recommendedFor: [
 newUrl: "https://www.amazon.co.jp/s?k=Callaway+ELYTE+X+ドライバー",
 usedUrl: "https://www.golfpartner.co.jp/search/?keyword=ELYTE%20X",
 rakutenUrl: "https://search.rakuten.co.jp/search/mall/Callaway+ELYTE+X+ドライバー/",
+  rivals: [1, 2],
   },
   {
     id: 4,
@@ -87,6 +91,7 @@ recommendedFor: [
 newUrl: "https://www.amazon.co.jp/s?k=Titleist+GT2+ドライバー",
 usedUrl: "https://www.golfpartner.co.jp/search/?keyword=GT2",
 rakutenUrl: "https://search.rakuten.co.jp/search/mall/Titleist+GT2+ドライバー/",
+rivals: [5, 6],
   },
   {
     id: 5,
@@ -111,5 +116,62 @@ recommendedFor: [
 newUrl: "https://www.amazon.co.jp/s?k=SRIXON+ZXi+ドライバー",
 usedUrl: "https://www.golfpartner.co.jp/search/?keyword=ZXi",
 rakutenUrl: "https://search.rakuten.co.jp/search/mall/SRIXON+ZXi+ドライバー/",
-  }
+rivals: [4, 6],
+  },
+  {
+  id: 6,
+  name: "Srixon ZXi MAX",
+  maker: "Srixon",
+  type: "安定性",
+  image: "/drivers/zxi-max.jpg",
+  comment:
+    "Srixon ZXi MAXは、直進性と寛容性を重視したドライバーです。ミスヒット時でもヘッドがブレにくく、安定した弾道を出しやすいのが特徴。左右の曲がりを抑えたいゴルファーや、やさしさを重視する方におすすめの1本です。",
+  price: "88,000円",
+  usedPrice: "69,800円",
+  rating: 4,
+  distance: 4,
+  forgiveness: 5,
+  workability: 3,
+  recommendedFor: [
+    "初心者",
+    "安定性重視",
+    "ミスを減らしたい人",
+  ],
+newUrl:
+  "https://www.amazon.co.jp/s?k=SRIXON+ZXi+MAX+ドライバー",
+
+usedUrl:
+  "https://www.golfpartner.co.jp/search/?keyword=ZXi%20MAX",
+
+rakutenUrl:
+  "https://search.rakuten.co.jp/search/mall/SRIXON+ZXi+MAX+ドライバー/",
+  rivals: [1, 2],
+},
+{
+  id: 7,
+  name: "PING G430 MAX 10K",
+  maker: "PING",
+  type: "安定性",
+  image: "/drivers/g430-max-10k.webp",
+  comment:
+    "PING G430 MAX 10Kは、非常に高い慣性モーメントによって曲がりを抑えやすいドライバーです。打点がずれてもヘッドがブレにくく、安定した方向性を出しやすいのが特徴。スライスや左右のばらつきを減らしたいゴルファーに向いています。",
+  price: "99,000円",
+  usedPrice: "74,800円",
+  rating: 5,
+  distance: 4,
+  forgiveness: 5,
+  workability: 2,
+  recommendedFor: [
+    "初心者",
+    "方向性重視",
+    "曲がりを減らしたい人",
+  ],
+  newUrl:
+    "https://www.amazon.co.jp/s?k=PING+G430+MAX+10K+ドライバー",
+  usedUrl:
+    "https://www.golfpartner.co.jp/search/?keyword=G430%20MAX%2010K",
+  rakutenUrl:
+    "https://search.rakuten.co.jp/search/mall/PING+G430+MAX+10K+ドライバー/",
+  rivals: [1, 6],
+},
 ];

@@ -28,7 +28,12 @@ export default async function ClubPage({
       </main>
     );
   }
+const rivalIds =
+  (club as { rivals?: number[] }).rivals ?? [];
 
+const rivalClubs = clubs.filter((c) =>
+  rivalIds.includes(c.id)
+);
   return (
     <main className="min-h-screen bg-green-50 flex justify-center p-6">
       <div className="bg-white rounded-3xl shadow-xl p-8 max-w-xl w-full">
@@ -41,7 +46,13 @@ export default async function ClubPage({
         <h1 className="text-3xl font-bold text-green-700">
           {club.name}
         </h1>
-
+<div className="mt-3 text-yellow-500 text-xl">
+  {"★".repeat(club.rating)}
+  {"☆".repeat(5 - club.rating)}
+  <span className="ml-2 text-sm text-gray-600">
+    {club.rating}.0
+  </span>
+</div>
         <p className="mt-4 text-lg">
           💰 新品：{club.price}
         </p>
@@ -50,9 +61,16 @@ export default async function ClubPage({
           ♻️ 中古：{club.usedPrice}
         </p>
 
-        <p className="mt-6 text-gray-700">
-          {club.comment}
-        </p>
+        <div className="mt-6 rounded-2xl border border-green-100 bg-green-50 p-6 shadow-sm">
+  <h2 className="mb-3 text-xl font-bold text-green-700">
+    📝 編集部レビュー
+  </h2>
+
+  <p className="leading-8 text-[17px] text-gray-700">
+    {club.comment}
+  </p>
+</div>
+        
 
         <div className="mt-6 space-y-2">
           <p>
@@ -138,7 +156,37 @@ export default async function ClubPage({
             </p>
           )}
         </div>
+{rivalClubs.length > 0 && (
+  <div className="mt-10">
+    <h2 className="mb-4 text-2xl font-bold text-green-700">
+      🥊 ライバルクラブ
+    </h2>
 
+    <div className="grid gap-4 sm:grid-cols-2">
+      {rivalClubs.map((rival) => (
+        <Link
+          key={rival.id}
+          href={`/club/${rival.id}`}
+          className="rounded-2xl border border-gray-200 p-4 shadow-sm transition hover:shadow-md"
+        >
+          <img
+            src={rival.image}
+            alt={rival.name}
+            className="mb-3 h-40 w-full rounded-xl object-cover"
+          />
+
+          <h3 className="font-bold text-green-700">
+            {rival.name}
+          </h3>
+
+          <p className="mt-2 line-clamp-3 text-sm text-gray-600">
+            {rival.comment}
+          </p>
+        </Link>
+      ))}
+    </div>
+  </div>
+)}
         <Link
           href="/"
           className="mt-8 inline-block rounded-lg border border-green-600 px-5 py-3 font-bold text-green-700 hover:bg-green-50"
