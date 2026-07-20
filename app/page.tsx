@@ -454,6 +454,14 @@ const third =
           </div>
         </section>
       </section>
+     <div className="mt-8 text-center">
+  <Link
+    href="/disclosure"
+    className="text-sm text-gray-500 underline hover:text-green-700"
+  >
+    広告・アフィリエイトについて
+  </Link>
+</div>
     </main>
   );
 }
