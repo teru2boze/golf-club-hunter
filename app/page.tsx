@@ -454,12 +454,19 @@ const third =
           </div>
         </section>
       </section>
-     <div className="mt-8 text-center">
+     <div className="mt-8 flex justify-center gap-6 text-center">
   <Link
     href="/disclosure"
     className="text-sm text-gray-500 underline hover:text-green-700"
   >
     広告・アフィリエイトについて
+  </Link>
+
+  <Link
+    href="/privacy"
+    className="text-sm text-gray-500 underline hover:text-green-700"
+  >
+    プライバシーポリシー
   </Link>
 </div>
     </main>
