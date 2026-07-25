@@ -475,6 +475,13 @@ const third =
   >
     運営者情報
   </Link>
+
+  <Link
+    href="/contact"
+    className="text-sm text-gray-500 underline hover:text-green-700"
+  >
+    お問い合わせ
+  </Link>
 </div>
     </main>
   );
