@@ -88,9 +88,9 @@ recommendedFor: [
   "操作性重視",
   "上達したい人",
 ],
-newUrl: "https://www.amazon.co.jp/s?k=Titleist+GT2+ドライバー",
+newUrl: "https://amzn.to/4vTberT",
 usedUrl: "https://www.golfpartner.co.jp/search/?keyword=GT2",
-rakutenUrl: "https://search.rakuten.co.jp/search/mall/Titleist+GT2+ドライバー/",
+rakutenUrl: "https://a.r10.to/h9mkNs",
 rivals: [5, 6],
   },
   {
@@ -113,9 +113,9 @@ recommendedFor: [
   "中級者以上",
 ],
 
-newUrl: "https://www.amazon.co.jp/s?k=SRIXON+ZXi+ドライバー",
+newUrl: "https://amzn.to/4yFFZ6k",
 usedUrl: "https://www.golfpartner.co.jp/search/?keyword=ZXi",
-rakutenUrl: "https://search.rakuten.co.jp/search/mall/SRIXON+ZXi+ドライバー/",
+rakutenUrl: "https://a.r10.to/h5FFpB",
 rivals: [4, 6],
   },
   {
@@ -138,13 +138,13 @@ rivals: [4, 6],
     "ミスを減らしたい人",
   ],
 newUrl:
-  "https://www.amazon.co.jp/s?k=SRIXON+ZXi+MAX+ドライバー",
+  "https://amzn.to/4vMgjlS",
 
 usedUrl:
   "https://www.golfpartner.co.jp/search/?keyword=ZXi%20MAX",
 
 rakutenUrl:
-  "https://search.rakuten.co.jp/search/mall/SRIXON+ZXi+MAX+ドライバー/",
+  "https://a.r10.to/h5RzqP",
   rivals: [1, 2],
 },
 {
@@ -167,11 +167,11 @@ rakutenUrl:
     "曲がりを減らしたい人",
   ],
   newUrl:
-    "https://www.amazon.co.jp/s?k=PING+G430+MAX+10K+ドライバー",
+    "https://amzn.to/3TDbOwx",
   usedUrl:
     "https://www.golfpartner.co.jp/search/?keyword=G430%20MAX%2010K",
   rakutenUrl:
-    "https://search.rakuten.co.jp/search/mall/PING+G430+MAX+10K+ドライバー/",
+    "https://a.r10.to/hPbME1",
   rivals: [1, 6],
 },
 ];
