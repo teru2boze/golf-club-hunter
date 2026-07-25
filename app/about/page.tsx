@@ -45,14 +45,23 @@ export default function AboutPage() {
             </p>
           </section>
 
-          <section>
-            <h2 className="text-xl font-bold text-green-700">
-              お問い合わせ
-            </h2>
-            <p className="mt-2">
-              お問い合わせ窓口は現在準備中です。
-            </p>
-          </section>
+          
+            <section>
+  <h2 className="text-xl font-bold text-green-700">
+    お問い合わせ
+  </h2>
+
+  <p className="mt-2">
+    ご意見・ご質問は、以下のメールアドレスまでお願いいたします。
+  </p>
+
+  <a
+    href="mailto:golfclubhunter.contact@gmail.com"
+    className="mt-2 inline-block font-bold text-green-700 underline"
+  >
+    golfclubhunter.contact@gmail.com
+  </a>
+</section>
         </div>
       </div>
     </main>
