@@ -468,6 +468,13 @@ const third =
   >
     プライバシーポリシー
   </Link>
+
+  <Link
+    href="/about"
+    className="text-sm text-gray-500 underline hover:text-green-700"
+  >
+    運営者情報
+  </Link>
 </div>
     </main>
   );
