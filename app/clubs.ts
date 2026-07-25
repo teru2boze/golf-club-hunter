@@ -44,7 +44,7 @@ recommendedFor: [
 ],
 newUrl: "https://www.amazon.co.jp/s?k=Qi35+MAX+ドライバー",
 usedUrl: "https://www.golfpartner.co.jp/search/?keyword=Qi35%20MAX",
-rakutenUrl: "https://search.rakuten.co.jp/search/mall/Qi35+MAX+ドライバー/",
+rakutenUrl: "https://hb.afl.rakuten.co.jp/ichiba/560daaae.6b38eb54.560daaaf.ecfefa67/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftaylormadegolf%2Ftf861%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
 rivals: [1, 3],
   },
   {
@@ -67,7 +67,7 @@ recommendedFor: [
 ],
 newUrl: "https://www.amazon.co.jp/s?k=Callaway+ELYTE+X+ドライバー",
 usedUrl: "https://www.golfpartner.co.jp/search/?keyword=ELYTE%20X",
-rakutenUrl: "https://search.rakuten.co.jp/search/mall/Callaway+ELYTE+X+ドライバー/",
+rakutenUrl: "https://hb.afl.rakuten.co.jp/ichiba/560db221.a55c216e.560db222.00b73eb6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvictoriagolf%2F108785250014%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
   rivals: [1, 2],
   },
   {
