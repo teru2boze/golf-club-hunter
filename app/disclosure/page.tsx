@@ -11,6 +11,9 @@ export default function DisclosurePage() {
             ゴルフクラブハンターでは、Amazon、楽天市場、
             ゴルフ用品販売サイトなどの商品リンクを掲載しています。
           </p>
+          <p className="mt-2">
+  Amazonのアソシエイトとして、ゴルフクラブハンターは適格販売により収入を得ています。
+</p>
 
           <p>
             当サイトのリンクを経由して商品が購入された場合、
