@@ -174,4 +174,31 @@ rakutenUrl:
     "https://a.r10.to/hPbME1",
   rivals: [1, 6],
 },
+  {
+    id: 8,
+    name: "Callaway PARADYM Ai SMOKE MAX",
+    maker: "Callaway",
+    type: "安定性",
+    image: "/drivers/paradym-ai-smoke-max.jpg",
+    comment:
+      "PARADYM Ai SMOKE MAXは、ミスへの強さと直進性を重視したドライバーです。幅広いゴルファーが使いやすく、安定したティーショットを狙えます。",
+    price: "96,800円",
+    usedPrice: "59,800円",
+    rating: 5,
+    distance: 4,
+    forgiveness: 5,
+    workability: 3,
+    recommendedFor: [
+      "初心者",
+      "安定性重視",
+      "ミスを減らしたい人",
+    ],
+    newUrl:
+      "https://amzn.to/3RUrFX6",
+    usedUrl:
+      "https://www.golfpartner.co.jp/search/?keyword=PARADYM%20Ai%20SMOKE%20MAX",
+    rakutenUrl:
+      "https://a.r10.to/hPVLMM",
+    rivals: [2, 6],
+  },
 ];
