@@ -14,7 +14,7 @@ export default function Home() {
 
   const second =
   recommend === 6
-    ? 0
+    ? 7
     : recommend === 5
       ? 0
       : recommend === 4
@@ -23,7 +23,7 @@ export default function Home() {
 
 const third =
   recommend === 6
-    ? 5
+    ? 0
     : recommend === 5
       ? 6
       : recommend === 4

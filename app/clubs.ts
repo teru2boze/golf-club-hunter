@@ -179,7 +179,7 @@ rakutenUrl:
     name: "Callaway PARADYM Ai SMOKE MAX",
     maker: "Callaway",
     type: "安定性",
-    image: "/drivers/paradym-ai-smoke-max.jpg",
+    image: "/drivers/paradym-ai-smoke-max.avif",
     comment:
       "PARADYM Ai SMOKE MAXは、ミスへの強さと直進性を重視したドライバーです。幅広いゴルファーが使いやすく、安定したティーショットを狙えます。",
     price: "96,800円",
