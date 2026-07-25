@@ -201,4 +201,31 @@ rakutenUrl:
       "https://a.r10.to/hPVLMM",
     rivals: [2, 6],
   },
+ {
+    id: 9,
+    name: "COBRA DS-ADAPT MAX-K",
+    maker: "COBRA",
+    type: "安定性",
+    image:"/drivers/ds-adapt-max-k.jpg.webp",
+    comment:
+      "COBRA DS-ADAPT MAX-Kは、ミスヒットへの強さと直進性を重視した高慣性モーメント設計のドライバーです。高めの打ち出しで、曲がりを抑えて安定したティーショットを狙いたいゴルファーに向いています。",
+    price: "93,500円",
+    usedPrice: "49,800円",
+    rating: 5,
+    distance: 4,
+    forgiveness: 5,
+    workability: 2,
+    recommendedFor: [
+      "初心者",
+      "安定性重視",
+      "曲がりを減らしたい人",
+    ],
+    newUrl:
+      "https://www.amazon.co.jp/s?k=COBRA+DS-ADAPT+MAX-K+ドライバー",
+    usedUrl:
+      "https://www.golfpartner.co.jp/search/?keyword=DS-ADAPT%20MAX-K",
+    rakutenUrl:
+      "https://search.rakuten.co.jp/search/mall/COBRA+DS-ADAPT+MAX-K+ドライバー/",
+    rivals: [6, 8],
+  },
 ];

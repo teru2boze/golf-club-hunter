@@ -10,59 +10,72 @@ export default function Home() {
   const [result, setResult] = useState(false);
   const [recommend, setRecommend] = useState(0);
   const [concern, setConcern] = useState("");
+const [ranking, setRanking] = useState([0, 1, 2]);
 
-
-  const second =
-  recommend === 6
-    ? 7
-    : recommend === 5
-      ? 0
-      : recommend === 4
-        ? 3
-        : (recommend + 1) % clubs.length;
-
-const third =
-  recommend === 6
-    ? 0
-    : recommend === 5
-      ? 6
-      : recommend === 4
-        ? 5
-        : (recommend + 2) % clubs.length;
+  const second = ranking[1];
+const third = ranking[2];
 
   const showResult = (priority: string) => {
-    let selected = 0;
+  const scored = clubs.map((club, index) => {
+    let score = 0;
 
-    if (concern === "distance") {
-  selected =
-    priority === "distance"
-      ? 1
-      : priority === "workability"
-        ? 3
-        : 0;
-    } else if (concern === "slice") {
-  selected =
-    priority === "forgiveness"
-      ? 6
-      : priority === "distance"
-        ? 1
-        : 2;
-    } else if (concern === "hook") {
-  selected = priority === "distance" ? 3 : 4;
-    } else if (concern === "mishit") {
-  selected =
-    priority === "forgiveness"
-      ? 5
-      : priority === "workability"
-        ? 3
-        : 0;
-    } else if (concern === "workability") {
-      selected = priority === "forgiveness" ? 3 : 4;
+    if (priority === "distance") {
+      score += club.distance * 3;
     }
 
-    setRecommend(selected);
-    setResult(true);
-  };
+    if (priority === "forgiveness") {
+      score += club.forgiveness * 3;
+    }
+
+    if (priority === "workability") {
+      score += club.workability * 3;
+    }
+
+    if (concern === "distance") {
+      score += club.distance * 2;
+    }
+
+    if (concern === "slice") {
+      score += club.forgiveness * 2;
+    }
+
+    if (concern === "hook") {
+      score += club.workability * 2;
+    }
+
+    if (concern === "mishit") {
+      score += club.forgiveness * 2;
+    }
+
+    if (concern === "workability") {
+      score += club.workability * 2;
+    }
+
+    return {
+      index,
+      score,
+    };
+  });
+
+  const top3 = scored
+    .sort((a, b) => {
+  if (b.score !== a.score) {
+    return b.score - a.score;
+  }
+
+  if (concern === "slice" || concern === "mishit") {
+    return clubs[a.index].workability - clubs[b.index].workability;
+  }
+
+  return 0;
+})
+    .slice(0, 3)
+    .map((item) => item.index);
+
+  setRanking(top3);
+  setRecommend(top3[0]);
+  setResult(true);
+};
 
   const resetDiagnosis = () => {
     setStart(false);
