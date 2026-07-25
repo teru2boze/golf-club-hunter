@@ -21,7 +21,7 @@ recommendedFor: [
 ],
 newUrl: "https://www.amazon.co.jp/s?k=PING+G440+MAX+ドライバー",
 usedUrl: "https://www.golfpartner.co.jp/search/?keyword=PING%20G440",
-rakutenUrl: "https://search.rakuten.co.jp/search/mall/PING+G440+MAX+ドライバー/",
+rakutenUrl:"https://hb.afl.rakuten.co.jp/ichiba/560d8eec.c926c847.560d8eed.3a3a3391/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjopro%2F010127070150001%2F&link_type=hybrid_url&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJoeWJyaWRfdXJsIiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
 rivals: [2, 3],
   },
   {
