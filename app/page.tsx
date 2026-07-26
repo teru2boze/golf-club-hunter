@@ -31,9 +31,13 @@ const third = ranking[2];
       score += club.workability * 3;
     }
 
-    if (concern === "distance") {
-      score += club.distance * 2;
-    }
+    if (priority === "distance") {
+  score += club.distance * 3;
+
+  if (club.type === "飛距離") {
+    score += 2;
+  }
+}
 
     if (concern === "slice") {
       score += club.forgiveness * 2;
@@ -64,10 +68,14 @@ const third = ranking[2];
   }
 
   if (concern === "slice" || concern === "mishit") {
-    return clubs[a.index].workability - clubs[b.index].workability;
-  }
+  return clubs[a.index].workability - clubs[b.index].workability;
+}
 
-  return 0;
+if (priority === "distance" || concern === "distance") {
+  return clubs[b.index].forgiveness - clubs[a.index].forgiveness;
+}
+
+return 0;
 })
     .slice(0, 3)
     .map((item) => item.index);

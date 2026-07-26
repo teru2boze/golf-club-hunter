@@ -255,4 +255,31 @@ rakutenUrl:
       "https://a.r10.to/h52taS",
     rivals: [2, 4],
   },
+  {
+    id: 11,
+    name: "Callaway QUANTUM MAX",
+    maker: "Callaway",
+    type: "飛距離",
+    image: "/drivers/quantum-max.avif",
+    comment:
+      "Callaway QUANTUM MAXは、ボール初速と飛距離性能を重視しながら、AI設計フェースによる弾道補正も狙えるドライバーです。飛距離を伸ばしたい人はもちろん、ある程度のやさしさも欲しいゴルファーに向いています。",
+    price: "110,000円",
+    usedPrice: "84,800円",
+    rating: 5,
+    distance: 5,
+    forgiveness: 4,
+    workability: 4,
+    recommendedFor: [
+      "飛距離重視",
+      "最新モデルを使いたい人",
+      "やさしさも欲しい人",
+    ],
+    newUrl:
+      "https://amzn.to/4yIgwcx",
+    usedUrl:
+      "https://www.golfpartner.co.jp/search/?keyword=QUANTUM%20MAX",
+    rakutenUrl:
+      "https://a.r10.to/hPPJG5",
+    rivals: [3, 10],
+  },
 ];
