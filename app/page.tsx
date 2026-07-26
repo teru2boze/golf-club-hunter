@@ -515,6 +515,17 @@ return 0;
     飛距離・やさしさ・安定性の違いを比較
   </p>
 </Link>
+<Link
+  href="/compare/g440-max-vs-g430-max"
+  className="rounded-xl border border-green-200 p-4 hover:bg-green-50"
+>
+  <h3 className="font-bold text-green-800">
+    PING G440 MAX vs G430 MAX
+  </h3>
+  <p className="mt-2 text-sm text-gray-600">
+    新旧モデルの違いを比較
+  </p>
+</Link>
   </div>
 </section>
      <div className="mt-8 flex justify-center gap-6 text-center">
