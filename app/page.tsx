@@ -475,6 +475,37 @@ return 0;
           </div>
         </section>
       </section>
+      <section className="mt-10 rounded-2xl bg-white p-6 shadow">
+  <h2 className="text-2xl font-bold text-green-800">
+    🔥 人気ドライバー比較
+  </h2>
+
+  <div className="mt-5 grid gap-4 md:grid-cols-2">
+    <Link
+      href="/compare/qi4d-vs-qi35-max"
+      className="rounded-xl border border-green-200 p-4 hover:bg-green-50"
+    >
+      <h3 className="font-bold text-green-800">
+        Qi4D vs Qi35 MAX
+      </h3>
+      <p className="mt-2 text-sm text-gray-600">
+        飛距離・やさしさ・操作性の違いを比較
+      </p>
+    </Link>
+
+    <Link
+      href="/compare/qi4d-vs-quantum-max"
+      className="rounded-xl border border-green-200 p-4 hover:bg-green-50"
+    >
+      <h3 className="font-bold text-green-800">
+        Qi4D vs QUANTUM MAX
+      </h3>
+      <p className="mt-2 text-sm text-gray-600">
+        最新モデル2本の特徴を比較
+      </p>
+    </Link>
+  </div>
+</section>
      <div className="mt-8 flex justify-center gap-6 text-center">
   <Link
     href="/disclosure"
