@@ -228,4 +228,31 @@ rakutenUrl:
       "https://a.r10.to/hF6bk0",
     rivals: [6, 8],
   },
+{
+    id: 10,
+    name: "TaylorMade Qi4D",
+    maker: "TaylorMade",
+    type: "飛距離",
+    image: "/drivers/qi4d.jpg",
+    comment:
+      "TaylorMade Qi4Dは、飛距離性能と弾道調整のしやすさを両立したドライバーです。第5世代カーボンフェースとTASウエイトを搭載し、強い弾道を狙いながら自分好みにセッティングしたいゴルファーに向いています。",
+    price: "107,800円",
+    usedPrice: "79,800円",
+    rating: 5,
+    distance: 5,
+    forgiveness: 4,
+    workability: 5,
+    recommendedFor: [
+      "飛距離重視",
+      "弾道を調整したい人",
+      "中級者以上",
+    ],
+    newUrl:
+      "https://amzn.to/4vTXz3Y",
+    usedUrl:
+      "https://www.golfpartner.co.jp/search/?keyword=Qi4D",
+    rakutenUrl:
+      "https://a.r10.to/h52taS",
+    rivals: [2, 4],
+  },
 ];
