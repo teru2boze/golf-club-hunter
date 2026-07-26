@@ -23,7 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-  url: `${baseUrl}/compare/g440-max-vs-g430-max-10k`,
+  url: `${baseUrl}/compare/g440-max-vs-g430-max`,
   lastModified: new Date(),
   changeFrequency: "monthly",
   priority: 0.8,
