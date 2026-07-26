@@ -221,11 +221,11 @@ rakutenUrl:
       "曲がりを減らしたい人",
     ],
     newUrl:
-      "https://www.amazon.co.jp/s?k=COBRA+DS-ADAPT+MAX-K+ドライバー",
+      "https://amzn.to/3RdbfsL",
     usedUrl:
       "https://www.golfpartner.co.jp/search/?keyword=DS-ADAPT%20MAX-K",
     rakutenUrl:
-      "https://search.rakuten.co.jp/search/mall/COBRA+DS-ADAPT+MAX-K+ドライバー/",
+      "https://a.r10.to/hF6bk0",
     rivals: [6, 8],
   },
 ];
