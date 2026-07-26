@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ゴルフクラブハンター｜あなたに合うゴルフクラブ診断サイト",
+  title: "ゴルフクラブハンター｜自分に合うゴルフクラブ診断・比較",
   description:
-    "初心者から上級者まで、自分に合うゴルフクラブを診断。ドライバー・アイアン・ユーティリティを比較して最適な1本を見つけよう。",
+    "初心者から上級者まで、自分に合うゴルフクラブを無料診断。ドライバー・アイアン・ユーティリティを比較し、飛距離・やさしさ・操作性からおすすめクラブを紹介します。",
 };
 
 export default function RootLayout({
@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="ja"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
