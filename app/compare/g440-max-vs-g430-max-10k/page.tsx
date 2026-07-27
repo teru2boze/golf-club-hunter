@@ -118,7 +118,17 @@ alt="PING G430 MAX 10K"
             ← ゴルフクラブ診断に戻る
           </Link>
         </div>
-      </div>
+      
+      <div className="mt-6">
+  <p className="font-bold text-gray-800">関連記事</p>
+  <Link
+    href="/compare/g440-max-vs-g430-max"
+    className="mt-2 inline-block text-green-700 underline"
+  >
+    PING G440 MAXとG430 MAXの違いを見る →
+  </Link>
+</div>
+</div>
     </main>
   );
 }
