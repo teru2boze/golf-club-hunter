@@ -13,8 +13,8 @@ export default function Qi4DvsQuantumMaxPage() {
 </h1>
 
         <p className="mt-4 text-gray-700">
-  PING G440 MAXとG430 MAX 10Kを比較します。
-  飛距離、やさしさ、操作性の違いから、どちらが自分に合うかを見ていきます。
+  PING G440 MAXとG430 MAX 10Kの違いを徹底比較します。
+飛距離・やさしさ・直進性・操作性を比べ、どちらがおすすめかをわかりやすく解説します。
 </p>
 <div className="mt-6 grid grid-cols-2 gap-4">
   <div className="rounded-xl bg-gray-50 p-4 text-center">
@@ -43,26 +43,20 @@ alt="PING G430 MAX 10K"
           <div className="rounded-xl bg-gray-50 p-4">
   <h3 className="text-xl font-bold">G440 MAXがおすすめな人</h3>
   <p className="mt-2">
-    飛距離と安定性を両立したい人。
-    最新モデルの性能を活かして、やさしく飛ばしたいゴルファーにおすすめです。
+    飛距離だけでなく、やさしさや安定感も重視したい人。
+最新モデルを選びたい人や、G430シリーズからの買い替えを検討しているゴルファーにおすすめです。
   </p>
 </div>
 
 <div className="rounded-xl bg-gray-50 p-4">
   <h3 className="text-xl font-bold">G430 MAX 10Kがおすすめな人</h3>
   <p className="mt-2">
-    ミスへの強さと安定感を最優先したい人。
-    曲がりを抑えて、できるだけフェアウェイを狙いたいゴルファーにおすすめです。
+    とにかく曲がりを抑えたい人や、ミスヒットへの強さを最優先したい人。
+最新モデルにこだわらず、直進性と安心感を重視して選びたいゴルファーにおすすめです。
   </p>
 </div>
 
-          <div className="rounded-xl bg-gray-50 p-4">
-            <h3 className="text-xl font-bold">Qi35 MAXがおすすめな人</h3>
-            <p className="mt-2">
-              飛距離をしっかり狙いながら、ミスヒットへの強さも重視したい人。
-直進性とやさしさを優先するゴルファーにおすすめです。
-            </p>
-          </div>
+
         </div>
 
         <h2 className="mt-8 text-2xl font-bold">性能比較</h2>
@@ -88,6 +82,11 @@ alt="PING G430 MAX 10K"
                 <td className="border p-3">★★★★☆</td>
               </tr>
               <tr>
+  <td className="border p-3">直進性</td>
+  <td className="border p-3">★★★★☆</td>
+  <td className="border p-3">★★★★★</td>
+</tr>
+              <tr>
                 <td className="border p-3">操作性</td>
                 <td className="border p-3">★★★★★</td>
                 <td className="border p-3">★★★★☆</td>
@@ -95,20 +94,22 @@ alt="PING G430 MAX 10K"
             </tbody>
           </table>
         </div>
-
+<p className="mt-4 text-gray-700">
+  迷ったら、最新モデルの総合力を重視するならG440 MAX、曲がりにくさと直進性を最優先するならG430 MAX 10Kがおすすめです。
+</p>
         <div className="mt-8 flex flex-wrap gap-3">
           <Link
-            href="/club/10"
+            href="/club/1"
             className="rounded-lg bg-green-600 px-5 py-3 font-bold text-white"
           >
-            Qi4Dの詳細を見る
+            PING G440 MAXの詳細を見る
           </Link>
 
           <Link
-  href="/club/2"
+  href="/club/7"
   className="rounded-lg bg-green-600 px-5 py-3 font-bold text-white"
 >
-  Qi35 MAXの詳細を見る
+  PING G430 MAX 10Kの詳細を見る
 </Link>
         </div>
 
