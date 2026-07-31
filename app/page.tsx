@@ -554,6 +554,29 @@ return 0;
 >
   <h3 className="font-bold text-green-800">
     PING G440 MAX vs ELYTE X
+  <Link
+  href="/compare/g430-max-10k-vs-elyte-x"
+  className="rounded-xl border border-green-200 p-4 hover:bg-green-50"
+>
+  <h3 className="font-bold text-green-800">
+    PING G430 MAX 10K vs ELYTE X
+  </h3>
+  <p className="mt-2 text-sm text-gray-600">
+    最新PINGとELYTE Xを比較
+  </p>
+</Link>
+
+<Link
+  href="/compare/elyte-x-vs-quantum-max"
+  className="rounded-xl border border-green-200 p-4 hover:bg-green-50"
+>
+  <h3 className="font-bold text-green-800">
+    ELYTE X vs QUANTUM MAX
+  </h3>
+  <p className="mt-2 text-sm text-gray-600">
+    人気ドライバー同士を比較
+  </p>
+</Link>
   </h3>
   <p className="mt-2 text-sm text-gray-600">
     飛距離・やさしさ・操作性の違いを比較
