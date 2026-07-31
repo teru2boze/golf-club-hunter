@@ -28,7 +28,7 @@ alt="PING G440 MAX"
 
   <div className="rounded-xl bg-gray-50 p-4 text-center">
     <img
- src="/drivers/quantum-max.jpg"
+ src="/drivers/quantum-max.avif"
 alt="Callaway QUANTUM MAX"
   className="mx-auto h-48 w-full object-contain"
 />
