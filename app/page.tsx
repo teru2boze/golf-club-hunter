@@ -571,6 +571,41 @@ return 0;
     人気ドライバー同士を比較
   </p>
 </Link>
+  <Link
+  href="/compare/g440-max-vs-quantum-max"
+  className="rounded-xl border border-green-200 p-4 hover:bg-green-50"
+>
+  <h3 className="font-bold text-green-800">
+    PING G440 MAX vs QUANTUM MAX
+  </h3>
+  <p className="mt-2 text-sm text-gray-600">
+    安定性と飛距離性能を比較
+  </p>
+</Link>
+
+<Link
+  href="/compare/qi35-max-vs-elyte-x"
+  className="rounded-xl border border-green-200 p-4 hover:bg-green-50"
+>
+  <h3 className="font-bold text-green-800">
+    Qi35 MAX vs ELYTE X
+  </h3>
+  <p className="mt-2 text-sm text-gray-600">
+    最新人気モデルを比較
+  </p>
+</Link>
+
+<Link
+  href="/compare/g430-max-10k-vs-qi35-max"
+  className="rounded-xl border border-green-200 p-4 hover:bg-green-50"
+>
+  <h3 className="font-bold text-green-800">
+    Qi35 MAX vs G430 MAX 10K
+  </h3>
+  <p className="mt-2 text-sm text-gray-600">
+    飛距離・やさしさ・直進性を比較
+  </p>
+</Link>
   </div>
 </section>
      <div className="mt-8 flex justify-center gap-6 text-center">

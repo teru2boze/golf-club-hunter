@@ -47,6 +47,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
   priority: 0.8,
 },
 {
+  url: "https://golf-club-hunter.vercel.app/compare/g440-max-vs-quantum-max",
+  lastModified: new Date(),
+},
+{
+  url: "https://golf-club-hunter.vercel.app/compare/qi35-max-vs-elyte-x",
+  lastModified: new Date(),
+},
+{
+  url: "https://golf-club-hunter.vercel.app/compare/g430-max-10k-vs-qi35-max",
+  lastModified: new Date(),
+},
+{
       url: `${baseUrl}/about`,
       lastModified: new Date(),
       changeFrequency: "yearly",
