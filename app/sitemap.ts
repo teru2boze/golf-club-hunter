@@ -35,6 +35,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   priority: 0.8,
 },    
 {
+  url: `${baseUrl}/compare/g440-max-vs-qi4d`,
+  lastModified: new Date(),
+  changeFrequency: "monthly",
+  priority: 0.8,
+},    
+{
   url: `${baseUrl}/compare/qi35-max-vs-quantum-max`,
   lastModified: new Date(),
   changeFrequency: "monthly",
