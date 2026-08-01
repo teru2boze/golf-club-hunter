@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ShopButtons from "@/components/ShopButtons";
 export const metadata = {
   title: "PING G440 MAX vs G430 MAX  比較｜どっちがおすすめ？",
 description:
@@ -96,21 +97,7 @@ alt="PING G430 MAX "
           </table>
         </div>
 
-        <div className="mt-8 flex flex-wrap gap-3">
-          <Link
-            href="/club/10"
-            className="rounded-lg bg-green-600 px-5 py-3 font-bold text-white"
-          >
-            Qi4Dの詳細を見る
-          </Link>
-
-          <Link
-  href="/club/2"
-  className="rounded-lg bg-green-600 px-5 py-3 font-bold text-white"
->
-  Qi35 MAXの詳細を見る
-</Link>
-        </div>
+       <ShopButtons />
 
         <div className="mt-8">
           <Link href="/" className="font-bold text-green-700">

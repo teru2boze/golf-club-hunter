@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ShopButtons from "@/components/ShopButtons";
 export const metadata = {
   title: "PING G440 MAX vs DS-ADAPT MAX-K 比較｜どっちがおすすめ？",
 description:
@@ -112,7 +113,7 @@ alt="PING DS-ADAPT MAX-K"
   PING DS-ADAPT MAX-Kの詳細を見る
 </Link>
         </div>
-
+<ShopButtons />
         <div className="mt-8">
           <Link href="/" className="font-bold text-green-700">
             ← ゴルフクラブ診断に戻る

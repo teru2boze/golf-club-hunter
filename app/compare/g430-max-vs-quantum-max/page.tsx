@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ShopButtons from "@/components/ShopButtons";
 export const metadata = {
   title: "PING G430 MAX vs QUANTUM MAX  比較｜どっちがおすすめ？",
 description:
@@ -88,21 +89,7 @@ alt="Callaway QUANTUM MAX"
           </table>
         </div>
 
-        <div className="mt-8 flex flex-wrap gap-3">
-          <Link
-            href="/club/1"
-            className="rounded-lg bg-green-600 px-5 py-3 font-bold text-white"
-          >
-            PING G430 MAXの詳細を見る
-          </Link>
-
-          <Link
-  href="/club/3"
-  className="rounded-lg bg-green-600 px-5 py-3 font-bold text-white"
->
-  QUANTUM MAXの詳細を見る
-</Link>
-        </div>
+        <ShopButtons />
 
         <div className="mt-8">
           <Link href="/" className="font-bold text-green-700">

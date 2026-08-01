@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ShopButtons from "@/components/ShopButtons";
 export const metadata = {
   title: "Qi35 MAX vs ELYTE X  比較｜どっちがおすすめ？",
 description:
@@ -90,21 +91,7 @@ alt="Callaway ELYTE X"
           </table>
         </div>
 
-        <div className="mt-8 flex flex-wrap gap-3">
-          <Link
-            href="/club/1"
-            className="rounded-lg bg-green-600 px-5 py-3 font-bold text-white"
-          >
-            Qi35 MAXの詳細を見る
-          </Link>
-
-          <Link
-  href="/club/3"
-  className="rounded-lg bg-green-600 px-5 py-3 font-bold text-white"
->
-  ELYTE Xの詳細を見る
-</Link>
-        </div>
+        <ShopButtons />
 
         <div className="mt-8">
           <Link href="/" className="font-bold text-green-700">

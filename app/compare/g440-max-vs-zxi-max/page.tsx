@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ShopButtons from "@/components/ShopButtons";
 export const metadata = {
   title: "PING G440 MAX vs ZXi MAX  比較｜どっちがおすすめ？",
 description:
@@ -90,21 +91,7 @@ alt="TaylorMade ZXi MAX"
           </table>
         </div>
 
-        <div className="mt-8 flex flex-wrap gap-3">
-          <Link
-            href="/club/1"
-            className="rounded-lg bg-green-600 px-5 py-3 font-bold text-white"
-          >
-            PING G440 MAXの詳細を見る
-          </Link>
-
-          <Link
-  href="/club/2"
-  className="rounded-lg bg-green-600 px-5 py-3 font-bold text-white"
->
-  ZXi MAXの詳細を見る
-</Link>
-        </div>
+       <ShopButtons />
 
         <div className="mt-8">
           <Link href="/" className="font-bold text-green-700">

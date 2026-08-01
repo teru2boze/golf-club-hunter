@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ShopButtons from "@/components/ShopButtons";
 export const metadata = {
   title: "Qi35 MAX vs G430 MAX 10K 比較｜どっちがおすすめ？",
 description:
@@ -97,21 +98,7 @@ alt="PING G430 MAX 10K"
 <p className="mt-4 text-gray-700">
   迷ったら、最新モデルの総合力を重視するならQi35 MAX、曲がりにくさと直進性を最優先するならG430 MAX 10Kがおすすめです。
 </p>
-        <div className="mt-8 flex flex-wrap gap-3">
-          <Link
-            href="/club/1"
-            className="rounded-lg bg-green-600 px-5 py-3 font-bold text-white"
-          >
-            Qi35 MAXの詳細を見る
-          </Link>
-
-          <Link
-  href="/club/7"
-  className="rounded-lg bg-green-600 px-5 py-3 font-bold text-white"
->
-  PING G430 MAX 10Kの詳細を見る
-</Link>
-        </div>
+       <ShopButtons />
 
         <div className="mt-8">
           <Link href="/" className="font-bold text-green-700">
