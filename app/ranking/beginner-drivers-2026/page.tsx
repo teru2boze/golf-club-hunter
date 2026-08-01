@@ -1,116 +1,90 @@
-import Link from "next/link";
 export const metadata = {
-  title: "PING G440 MAX vs Qi35 MAX  比較｜どっちがおすすめ？",
-description:
-  "PING G440 MAXとQi35 MAX を飛距離・やさしさ・操作性で比較。どちらがおすすめかをわかりやすく解説します。",
+  title: "2026年 初心者におすすめのドライバーランキングTOP5",
+  description:
+    "2026年版の初心者向けおすすめドライバーをランキング形式で紹介。飛距離・やさしさ・直進性・コスパを比較して、自分に合う1本が見つかります。",
 };
-export default function Qi4DvsQuantumMaxPage() {
+
+export default function BeginnerDrivers2026Page() {
+  const drivers = [
+    {
+      rank: "🥇",
+      name: "PING G440 MAX",
+      reason: "曲がりにくさ・直進性・やさしさのバランスが非常に優秀。",
+      best: "スライスを減らしたい初心者",
+    },
+    {
+      rank: "🥈",
+      name: "TaylorMade Qi35 MAX",
+      reason: "高弾道で飛ばしやすく、ミスヒットにも強い。",
+      best: "とにかく飛距離が欲しい人",
+    },
+    {
+      rank: "🥉",
+      name: "Callaway ELYTE X",
+      reason: "つかまりが良く、スライスしにくい。",
+      best: "ボールが右へ曲がる人",
+    },
+    {
+      rank: "4位",
+      name: "Cobra DS-ADAPT MAX-K",
+      reason: "高い寛容性で安定したショットが打ちやすい。",
+      best: "安定感を重視する人",
+    },
+    {
+      rank: "5位",
+      name: "Titleist GT2",
+      reason: "飛距離性能と打感を両立。",
+      best: "長く使える1本が欲しい人",
+    },
+  ];
+
   return (
     <main className="min-h-screen bg-green-50 px-4 py-10">
-      <div className="mx-auto max-w-3xl rounded-2xl bg-white p-6 shadow">
-        <h1 className="text-3xl font-bold text-green-800">
-  PING G440 MAX vs Qi35 MAX 
-</h1>
+      <div className="mx-auto max-w-4xl rounded-2xl bg-white p-8 shadow">
+
+        <h1 className="text-4xl font-bold text-green-800">
+          2026年 初心者におすすめのドライバーランキングTOP5
+        </h1>
 
         <p className="mt-4 text-gray-700">
-  PING G440 MAXとQi35 MAX を比較します。
-  飛距離、やさしさ、操作性の違いから、どちらが自分に合うかを見ていきます。
-</p>
-<div className="mt-6 grid grid-cols-2 gap-4">
-  <div className="rounded-xl bg-gray-50 p-4 text-center">
-    <img
-      src="/drivers/ping-g440.jpg"
-alt="PING G440 MAX"
-      className="mx-auto h-48 w-full object-contain"
-    />
-    <p className="mt-2 font-bold">PING G440 MAX</p>
-  </div>
+          初心者でも曲がりにくく、飛ばしやすいドライバーを厳選しました。
+          やさしさ・飛距離・直進性を重視してランキング化しています。
+        </p>
 
-  <div className="rounded-xl bg-gray-50 p-4 text-center">
-    <img
- src="/drivers/qi35-max.jpg"
-alt="TaylorMade Qi35 MAX"
-  className="mx-auto h-48 w-full object-contain"
-/>
-<p className="mt-2 font-bold">TaylorMade Qi35 MAX</p>
-  </div>
-</div>
-        <h2 className="mt-8 text-2xl font-bold">
-          結論：どっちがおすすめ？
+        <div className="mt-8 space-y-6">
+          {drivers.map((driver) => (
+            <div
+              key={driver.name}
+              className="rounded-xl border bg-gray-50 p-6"
+            >
+              <h2 className="text-2xl font-bold">
+                {driver.rank} {driver.name}
+              </h2>
+
+              <p className="mt-3">
+                <strong>おすすめ理由：</strong>
+                {driver.reason}
+              </p>
+
+              <p className="mt-2">
+                <strong>こんな人におすすめ：</strong>
+                {driver.best}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        <h2 className="mt-10 text-3xl font-bold">
+          初心者がドライバーを選ぶポイント
         </h2>
 
-        <div className="mt-4 space-y-4">
-          <div className="rounded-xl bg-gray-50 p-4">
-  <h3 className="text-xl font-bold">G440 MAXがおすすめな人</h3>
-  <p className="mt-2">
-    飛距離と安定性を両立したい人。
-    最新モデルの性能を活かして、やさしく飛ばしたいゴルファーにおすすめです。
-  </p>
-</div>
+        <ul className="mt-4 list-disc pl-6 space-y-2">
+          <li>曲がりにくいモデルを選ぶ</li>
+          <li>ヘッドが大きくミスに強いものを選ぶ</li>
+          <li>10.5°前後のロフトがおすすめ</li>
+          <li>軽めのシャフトを選ぶ</li>
+        </ul>
 
-<div className="rounded-xl bg-gray-50 p-4">
-  <h3 className="text-xl font-bold">Qi35 MAX がおすすめな人</h3>
-  <p className="mt-2">
-    飛距離をしっかり狙いながら、ミスヒットへの強さも重視したい人。
-直進性とやさしさのバランスを求めるゴルファーにおすすめです。
-  </p>
-</div>
-
-
-        </div>
-
-        <h2 className="mt-8 text-2xl font-bold">性能比較</h2>
-
-        <div className="mt-4 overflow-x-auto">
-          <table className="w-full border-collapse border text-center">
-            <thead>
-              <tr>
-                <th className="border p-3">比較項目</th>
-               <th className="border p-3">G440 MAX</th>
-<th className="border p-3">Qi35 MAX </th>
-</tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="border p-3">飛距離</td>
-                <td className="border p-3">★★★★★</td>
-                <td className="border p-3">★★★★★</td>
-              </tr>
-              <tr>
-                <td className="border p-3">やさしさ</td>
-                <td className="border p-3">★★★★☆</td>
-                <td className="border p-3">★★★★☆</td>
-              </tr>
-              <tr>
-                <td className="border p-3">操作性</td>
-                <td className="border p-3">★★★★★</td>
-                <td className="border p-3">★★★★☆</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <div className="mt-8 flex flex-wrap gap-3">
-          <Link
-            href="/club/1"
-            className="rounded-lg bg-green-600 px-5 py-3 font-bold text-white"
-          >
-            PING G440 MAXの詳細を見る
-          </Link>
-
-          <Link
-  href="/club/2"
-  className="rounded-lg bg-green-600 px-5 py-3 font-bold text-white"
->
-  Qi35 MAXの詳細を見る
-</Link>
-        </div>
-
-        <div className="mt-8">
-          <Link href="/" className="font-bold text-green-700">
-            ← ゴルフクラブ診断に戻る
-          </Link>
-        </div>
       </div>
     </main>
   );
