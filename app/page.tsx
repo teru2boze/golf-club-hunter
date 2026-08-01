@@ -520,7 +520,29 @@ return 0;
         飛距離・やさしさ・操作性の違いを比較
       </p>
     </Link>
+<Link
+  href="/compare/g440-max-vs-qi35-max"
+  className="rounded-xl border border-green-200 p-4 hover:bg-green-50"
+>
+  <h3 className="font-bold text-green-800">
+    G440 MAX vs Qi35 MAX
+  </h3>
+  <p className="mt-2 text-sm text-gray-600">
+    直進性・飛距離・やさしさの違いを比較
+  </p>
+</Link>
 
+<Link
+  href="/compare/g440-max-vs-gt2"
+  className="rounded-xl border border-green-200 p-4 hover:bg-green-50"
+>
+  <h3 className="font-bold text-green-800">
+    G440 MAX vs GT2
+  </h3>
+  <p className="mt-2 text-sm text-gray-600">
+    安定感と操作性の違いを比較
+  </p>
+</Link>
     <Link
       href="/compare/qi4d-vs-quantum-max"
       className="rounded-xl border border-green-200 p-4 hover:bg-green-50"
