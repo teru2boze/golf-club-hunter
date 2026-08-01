@@ -19,18 +19,18 @@ export default function G440MaxVsGT2Page() {
 </p>
 <div className="mt-6 grid grid-cols-2 gap-4">
   <div className="rounded-xl bg-gray-50 p-4 text-center">
-    <img
-      src="/drivers/gt2.avif"
-alt="PING G440 MAX"
-      className="mx-auto h-48 w-full object-contain"
-    />
+   <img
+  src="/drivers/ping-g440.jpg"
+  alt="PING G440 MAX"
+  className="mx-auto h-48 w-full object-contain"
+/>
     <p className="mt-2 font-bold">PING G440 MAX</p>
   </div>
 
   <div className="rounded-xl bg-gray-50 p-4 text-center">
-    <img
- src="/drivers/GT2.jpg"
-alt="Titleist GT2"
+  <img
+  src="/drivers/gt2.avif"
+  alt="Titleist GT2"
   className="mx-auto h-48 w-full object-contain"
 />
 <p className="mt-2 font-bold">Titleist GT2</p>
