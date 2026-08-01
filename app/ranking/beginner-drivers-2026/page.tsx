@@ -1,3 +1,4 @@
+import Link from "next/link";
 export const metadata = {
   title: "2026年 初心者におすすめのドライバーランキングTOP5",
   description:
@@ -86,6 +87,18 @@ export default function BeginnerDrivers2026Page() {
         </ul>
 
       </div>
+    <h2 className="mt-10 text-3xl font-bold">
+  人気比較ページ
+</h2>
+
+<ul className="mt-4 list-disc pl-6 space-y-2">
+  <li><Link href="/compare/g440-max-vs-qi4d">PING G440 MAX vs Qi4D</Link></li>
+  <li><Link href="/compare/g440-max-vs-qi35-max">PING G440 MAX vs Qi35 MAX</Link></li>
+  <li><Link href="/compare/g440-max-vs-quantum-max">PING G440 MAX vs QUANTUM MAX</Link></li>
+  <li><Link href="/compare/g440-max-vs-elyte-x">PING G440 MAX vs ELYTE X</Link></li>
+  <li><Link href="/compare/g440-max-vs-zxi-max">PING G440 MAX vs ZXi MAX</Link></li>
+  <li><Link href="/compare/g440-max-vs-gt2">PING G440 MAX vs GT2</Link></li>
+</ul>
     </main>
   );
 }
