@@ -19,7 +19,7 @@ export default function Qi4DvsQuantumMaxPage() {
 <div className="mt-6 grid grid-cols-2 gap-4">
   <div className="rounded-xl bg-gray-50 p-4 text-center">
     <img
-      src="/drivers/zxi-max.jpg"
+      src="/drivers/g430-max-10k.webp"
 alt="PING G430 MAX"
       className="mx-auto h-48 w-full object-contain"
     />
