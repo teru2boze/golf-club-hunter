@@ -89,7 +89,39 @@ export default function LongestDrivers2026Page() {
     <h2 className="mt-10 text-3xl font-bold">
   人気比較ページ
 </h2>
+<h2 className="mt-10 text-3xl font-bold">
+  関連ランキング
+</h2>
 
+<div className="mt-4 grid gap-3 sm:grid-cols-2">
+  <Link
+    href="/ranking/beginner-drivers-2026"
+    className="rounded-xl border bg-white p-4 font-bold hover:bg-green-50"
+  >
+    初心者向けランキング
+  </Link>
+
+  <Link
+    href="/ranking/mid-handicap-drivers-2026"
+    className="rounded-xl border bg-white p-4 font-bold hover:bg-green-50"
+  >
+    中級者向けランキング
+  </Link>
+
+  <Link
+    href="/ranking/advanced-drivers-2026"
+    className="rounded-xl border bg-white p-4 font-bold hover:bg-green-50"
+  >
+    上級者向けランキング
+  </Link>
+
+  <Link
+    href="/ranking/longest-drivers-2026"
+    className="rounded-xl border bg-white p-4 font-bold hover:bg-green-50"
+  >
+    飛距離ランキング
+  </Link>
+</div>
 <ul className="mt-4 list-disc pl-6 space-y-2">
   <li><Link href="/compare/g440-max-vs-qi4d">PING G440 MAX vs Qi4D</Link></li>
   <li><Link href="/compare/g440-max-vs-qi35-max">PING G440 MAX vs Qi35 MAX</Link></li>

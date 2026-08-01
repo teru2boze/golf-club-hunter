@@ -84,7 +84,39 @@ export default function MidHandicapDrivers2026Page() {
           <li>10.5°前後のロフトがおすすめ</li>
           <li>軽めのシャフトを選ぶ</li>
         </ul>
+<h2 className="mt-10 text-3xl font-bold">
+  関連ランキング
+</h2>
 
+<div className="mt-4 grid gap-3 sm:grid-cols-2">
+  <Link
+    href="/ranking/beginner-drivers-2026"
+    className="rounded-xl border bg-white p-4 font-bold hover:bg-green-50"
+  >
+    初心者向けランキング
+  </Link>
+
+  <Link
+    href="/ranking/mid-handicap-drivers-2026"
+    className="rounded-xl border bg-white p-4 font-bold hover:bg-green-50"
+  >
+    中級者向けランキング
+  </Link>
+
+  <Link
+    href="/ranking/advanced-drivers-2026"
+    className="rounded-xl border bg-white p-4 font-bold hover:bg-green-50"
+  >
+    上級者向けランキング
+  </Link>
+
+  <Link
+    href="/ranking/longest-drivers-2026"
+    className="rounded-xl border bg-white p-4 font-bold hover:bg-green-50"
+  >
+    飛距離ランキング
+  </Link>
+</div>
    
     <h2 className="mt-10 text-3xl font-bold">
   人気比較ページ
