@@ -77,23 +77,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
   priority: 0.8,
 },
 {
-  url: `${baseUrl}/compare/g440-max-vs-elyte-x`,
+  url: `${baseUrl}/compare/g440-max-vs-ds-adapt-max-k`,
   lastModified: new Date(),
   changeFrequency: "monthly",
   priority: 0.8,
 },
 {
-  url: "https://golf-club-hunter.vercel.app/compare/g440-max-vs-quantum-max",
+  url: `${baseUrl}/compare/g440-max-vs-zxi-max`,
   lastModified: new Date(),
+  changeFrequency: "monthly",
+  priority: 0.8,
 },
 {
-  url: "https://golf-club-hunter.vercel.app/compare/qi35-max-vs-elyte-x",
+  url: `${baseUrl}/compare/g440-max-vs-gt2`,
   lastModified: new Date(),
+  changeFrequency: "monthly",
+  priority: 0.8,
 },
 {
-  url: "https://golf-club-hunter.vercel.app/compare/g430-max-10k-vs-qi35-max",
+  url: `${baseUrl}/compare/g430-max-vs-zxi-max`,
   lastModified: new Date(),
+  changeFrequency: "monthly",
+  priority: 0.8,
 },
+{
+  url: `${baseUrl}/compare/g440-max-vs-elyte-x`,
+  lastModified: new Date(),
+  changeFrequency: "monthly",
+  priority: 0.8,
+},
+
 {
       url: `${baseUrl}/about`,
       lastModified: new Date(),
