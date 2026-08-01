@@ -423,7 +423,35 @@ return 0;
           <h2 className="text-3xl font-bold text-green-800">
             🏆 人気ランキング
           </h2>
+<div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+  <Link
+    href="/ranking/beginner-drivers-2026"
+    className="rounded-2xl bg-white p-5 text-center font-bold shadow transition hover:-translate-y-1 hover:shadow-lg"
+  >
+    初心者向けランキング
+  </Link>
 
+  <Link
+    href="/ranking/mid-handicap-drivers-2026"
+    className="rounded-2xl bg-white p-5 text-center font-bold shadow transition hover:-translate-y-1 hover:shadow-lg"
+  >
+    中級者向けランキング
+  </Link>
+
+  <Link
+    href="/ranking/advanced-drivers-2026"
+    className="rounded-2xl bg-white p-5 text-center font-bold shadow transition hover:-translate-y-1 hover:shadow-lg"
+  >
+    上級者向けランキング
+  </Link>
+
+  <Link
+    href="/ranking/longest-drivers-2026"
+    className="rounded-2xl bg-white p-5 text-center font-bold shadow transition hover:-translate-y-1 hover:shadow-lg"
+  >
+    飛距離ランキング
+  </Link>
+</div>
           <div className="mt-8 grid gap-6 md:grid-cols-3">
             {clubs.slice(0, 3).map((club, index) => (
               <Link
