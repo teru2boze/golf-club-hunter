@@ -86,7 +86,7 @@ export default function BeginnerDrivers2026Page() {
           <li>軽めのシャフトを選ぶ</li>
         </ul>
 
-      </div>
+   
     <h2 className="mt-10 text-3xl font-bold">
   人気比較ページ
 </h2>
@@ -99,6 +99,7 @@ export default function BeginnerDrivers2026Page() {
   <li><Link href="/compare/g440-max-vs-zxi-max">PING G440 MAX vs ZXi MAX</Link></li>
   <li><Link href="/compare/g440-max-vs-gt2">PING G440 MAX vs GT2</Link></li>
 </ul>
+   </div>
     </main>
   );
 }
