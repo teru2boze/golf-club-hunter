@@ -6,7 +6,7 @@ type ShopButtonsProps = {
 
 export default function ShopButtons({
   amazonUrl = "#",
-rakutenUrl ="https://hb.afl.rakuten.co.jp/ichiba/560d8eec.c926c847.560d8eed.3a3a3391/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjopro%2F010127070150061%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9",
+rakutenUrl = "#",
   yahooUrl = "#",
 }: ShopButtonsProps) {
   return (
@@ -29,8 +29,7 @@ rakutenUrl ="https://hb.afl.rakuten.co.jp/ichiba/560d8eec.c926c847.560d8eed.3a3a
 
         <a
           href={rakutenUrl}
-          target="_blank"
-          rel="nofollow sponsored noopener noreferrer"
+          rel="nofollow sponsored"
           className="rounded-xl bg-red-600 px-5 py-4 text-center font-bold text-white"
         >
           楽天市場で見る
