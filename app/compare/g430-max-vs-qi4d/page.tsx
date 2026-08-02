@@ -91,7 +91,9 @@ alt="TaylorMade Qi4D"
           </table>
         </div>
 
-       <ShopButtons />
+<ShopButtons
+  rakutenUrl="https://hb.afl.rakuten.co.jp/ichiba/5641c0c9.450a6d39.5641c0ca.f92b1a44/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farigaen%2F131-24-g4dmx10-crm%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
+/>
 
         <div className="mt-8">
           <Link href="/" className="font-bold text-green-700">

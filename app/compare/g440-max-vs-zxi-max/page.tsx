@@ -20,8 +20,8 @@ export default function G440MaxVsZXiMaxPage() {
 <div className="mt-6 grid grid-cols-2 gap-4">
   <div className="rounded-xl bg-gray-50 p-4 text-center">
     <img
-      src="/drivers/zxi-max.jpg"
-alt="PING G440 MAX"
+      src="/drivers/ping-g440.jpg"
+      alt="PING G440 MAX"
       className="mx-auto h-48 w-full object-contain"
     />
     <p className="mt-2 font-bold">PING G440 MAX</p>
@@ -29,11 +29,11 @@ alt="PING G440 MAX"
 
   <div className="rounded-xl bg-gray-50 p-4 text-center">
     <img
- src="/drivers/ZXi MAX.jpg"
-alt="TaylorMade ZXi MAX"
-  className="mx-auto h-48 w-full object-contain"
-/>
-<p className="mt-2 font-bold">TaylorMade ZXi MAX</p>
+      src="/drivers/zxi-max.jpg"
+      alt="SRIXON ZXi MAX"
+      className="mx-auto h-48 w-full object-contain"
+    />
+    <p className="mt-2 font-bold">SRIXON ZXi MAX</p>
   </div>
 </div>
         <h2 className="mt-8 text-2xl font-bold">
@@ -92,7 +92,7 @@ alt="TaylorMade ZXi MAX"
         </div>
 
      <ShopButtons
-  rakutenUrl="https://hb.afl.rakuten.co.jp/ichiba/560d8eec.c926c847.560d8eed.3a3a3391/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjopro%2F010127070150061%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
+  rakutenUrl="https://hb.afl.rakuten.co.jp/ichiba/560f9f42.bc144096.560f9f43.88416c4d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falpen%2F6010560314%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
 />
 
         <div className="mt-8">
