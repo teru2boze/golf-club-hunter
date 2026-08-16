@@ -97,9 +97,24 @@ alt="PING G430 MAX "
           </table>
         </div>
 
-       <ShopButtons
-  rakutenUrl="https://hb.afl.rakuten.co.jp/ichiba/560d8eec.c926c847.560d8eed.3a3a3391/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjopro%2F010127070150061%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
-/>
+       <div>
+  <p className="mb-2 font-bold text-green-800">
+    PING G440 MAXを楽天で見る
+  </p>
+
+  <ShopButtons
+    rakutenUrl="https://hb.afl.rakuten.co.jp/ichiba/560d8eec.c926c847.560d8eed.3a3a3391/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjopro%2F010127070150061%2F&link_type=text"
+  />
+</div>
+<div>
+  <p className="mb-2 font-bold text-green-800">
+    PING G430 MAXを楽天で見る
+  </p>
+
+  <ShopButtons
+    rakutenUrl="https://hb.afl.rakuten.co.jp/ichiba/5641c0c9.450a6d39.5641c0ca.f92b1a44/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farigaen%2F131-22-g430drmax-alt%2F&link_type=text"
+  />
+</div>
 
         <div className="mt-8">
           <Link href="/" className="font-bold text-green-700">
