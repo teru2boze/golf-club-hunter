@@ -91,9 +91,27 @@ export default function G440MaxVsGT2Page() {
           </table>
         </div>
 
-      <ShopButtons
-  rakutenUrl="https://hb.afl.rakuten.co.jp/ichiba/560f9f42.bc144096.560f9f43.88416c4d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falpen%2F6010620114%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
-/>
+      <div className="mt-8 space-y-6">
+  <div>
+    <p className="mb-2 font-bold text-green-800">
+      PING G440 MAXを楽天で見る
+    </p>
+
+    <ShopButtons
+      rakutenUrl="https://hb.afl.rakuten.co.jp/ichiba/560d8eec.c926c847.560d8eed.3a3a3391/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjopro%2F010127070150061%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
+    />
+  </div>
+
+  <div>
+    <p className="mb-2 font-bold text-green-800">
+      Titleist GT2を楽天で見る
+    </p>
+
+    <ShopButtons
+      rakutenUrl="https://hb.afl.rakuten.co.jp/ichiba/560f9f42.bc144096.560f9f43.88416c4d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falpen%2F6010620114%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
+    />
+  </div>
+</div>
         <div className="mt-8">
           <Link href="/" className="font-bold text-green-700">
             ← ゴルフクラブ診断に戻る
