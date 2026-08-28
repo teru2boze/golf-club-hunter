@@ -1,39 +1,39 @@
 import Link from "next/link";
 import ShopButtons from "@/components/ShopButtons";
 export const metadata = {
-  title: "PING G440 MAX vs Qi4D  比較｜どっちがおすすめ？",
+  title: "PING G430 MAX 10K vs QUANTUM MAX  比較｜どっちがおすすめ？",
 description:
-  "PING G440 MAXとQi4D を飛距離・やさしさ・操作性で比較。どちらがおすすめかをわかりやすく解説します。",
+  "PING G430 MAX 10KとQUANTUM MAX を飛距離・やさしさ・操作性で比較。どちらがおすすめかをわかりやすく解説します。",
 };
-export default function G440MaxVsQi4DPage() {
+export default function QG430MaxVsQuantumMaxPage() {
   return (
     <main className="min-h-screen bg-green-50 px-4 py-10">
       <div className="mx-auto max-w-3xl rounded-2xl bg-white p-6 shadow">
         <h1 className="text-3xl font-bold text-green-800">
-  PING G440 MAX vs Qi4D 
+  PING G430 MAX 10K vs QUANTUM MAX 
 </h1>
 
         <p className="mt-4 text-gray-700">
-  PING G440 MAXとQi4D を比較します。
+  PING G430 MAX 10KとQUANTUM MAX を比較します。
   飛距離、やさしさ、操作性の違いから、どちらが自分に合うかを見ていきます。
 </p>
 <div className="mt-6 grid grid-cols-2 gap-4">
   <div className="rounded-xl bg-gray-50 p-4 text-center">
     <img
-      src="/drivers/ping-g440.jpg"
-alt="PING G440 MAX"
+      src="/drivers/g430-max-10k.webp"
+alt="PING G430 MAX 10K"
       className="mx-auto h-48 w-full object-contain"
     />
-    <p className="mt-2 font-bold">PING G440 MAX</p>
+    <p className="mt-2 font-bold">PING G430 MAX 10K</p>
   </div>
 
   <div className="rounded-xl bg-gray-50 p-4 text-center">
     <img
- src="/drivers/qi4d.jpg"
-alt="TaylorMade Qi4D"
+ src="/drivers/quantum-max.avif"
+alt="Callaway QUANTUM MAX"
   className="mx-auto h-48 w-full object-contain"
 />
-<p className="mt-2 font-bold">TaylorMade Qi4D</p>
+<p className="mt-2 font-bold">Callaway QUANTUM MAX</p>
   </div>
 </div>
         <h2 className="mt-8 text-2xl font-bold">
@@ -42,18 +42,16 @@ alt="TaylorMade Qi4D"
 
         <div className="mt-4 space-y-4">
           <div className="rounded-xl bg-gray-50 p-4">
-  <h3 className="text-xl font-bold">G440 MAXがおすすめな人</h3>
+  <h3 className="text-xl font-bold">G430 MAX 10Kがおすすめな人</h3>
   <p className="mt-2">
-    飛距離と安定性を両立したい人。
-    最新モデルの性能を活かして、やさしく飛ばしたいゴルファーにおすすめです。
+    直進性と安定感を重視したい人。ミスヒットに強く、やさしく曲がりを抑えたいゴルファーにおすすめです。
   </p>
 </div>
 
 <div className="rounded-xl bg-gray-50 p-4">
-  <h3 className="text-xl font-bold">Qi4D がおすすめな人</h3>
+  <h3 className="text-xl font-bold">QUANTUM MAX がおすすめな人</h3>
   <p className="mt-2">
-    飛距離をしっかり狙いながら、ミスヒットへの強さも重視したい人。
-直進性とやさしさのバランスを求めるゴルファーにおすすめです。
+    つかまりの良さと飛距離性能を重視したい人。スライスを抑えながら、しっかり飛ばしたいゴルファーにおすすめです。
   </p>
 </div>
 
@@ -67,8 +65,8 @@ alt="TaylorMade Qi4D"
             <thead>
               <tr>
                 <th className="border p-3">比較項目</th>
-               <th className="border p-3">G440 MAX</th>
-<th className="border p-3">Qi4D </th>
+               <th className="border p-3">G430 MAX</th>
+<th className="border p-3">QUANTUM MAX </th>
 </tr>
             </thead>
             <tbody>
@@ -85,26 +83,16 @@ alt="TaylorMade Qi4D"
               <tr>
                 <td className="border p-3">操作性</td>
                 <td className="border p-3">★★★★★</td>
-                <td className="border p-3">★★★★☆</td>
+                <td className="border p-3">★★★☆☆</td>
               </tr>
             </tbody>
           </table>
         </div>
-<p className="mb-2 font-bold text-green-800">
-  PING G440 MAXを楽天で見る
-</p>
-       <ShopButtons
-  rakutenUrl="https://hb.afl.rakuten.co.jp/ichiba/560d8eec.c926c847.560d8eed.3a3a3391/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjopro%2F010127070150061%2F&link_type=text"
-/>
-<div>
-  <p className="mb-2 font-bold text-green-800">
-    TaylorMade Qi4Dを楽天で見る
-  </p>
 
-  <ShopButtons
-    rakutenUrl="https://hb.afl.rakuten.co.jp/ichiba/56133efd.71a8c474.56133efe.a3cd60b5/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fezaki-g%2Fty-dr-qi4d-m%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
-  />
-</div>
+       <ShopButtons
+  rakutenUrl="https://hb.afl.rakuten.co.jp/ichiba/560db221.a55c216e.560db222.00b73eb6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvictoriagolf%2F109041047014%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
+/>
+
         <div className="mt-8">
           <Link href="/" className="font-bold text-green-700">
             ← ゴルフクラブ診断に戻る
