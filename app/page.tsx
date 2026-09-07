@@ -406,17 +406,20 @@ return 0;
             </p>
           </div>
 
-                    <div className="rounded-2xl bg-white p-6 shadow">
-            <div className="text-4xl">⚔️</div>
+                   <Link
+  href="/compare"
+  className="rounded-2xl bg-white p-6 shadow hover:bg-green-50 transition block"
+>
+  <div className="text-4xl">⚔️</div>
 
-            <h2 className="mt-3 text-xl font-bold">
-              ライバル比較
-            </h2>
+  <h2 className="mt-3 text-xl font-bold">
+    ライバル比較
+  </h2>
 
-            <p className="mt-2 text-gray-600">
-              迷う2本の違いをわかりやすく
-            </p>
-          </div>
+  <p className="mt-2 text-gray-600">
+    迷う2本の違いをわかりやすく
+  </p>
+</Link>
                 </div>
 
         <section className="mt-20">
