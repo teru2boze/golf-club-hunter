@@ -90,7 +90,16 @@ alt="TaylorMade ZXi MAX"
             </tbody>
           </table>
         </div>
+<p className="mb-2 font-bold text-green-800">
+  PING G430 MAXを楽天で見る
+</p>
+<ShopButtons
+  rakutenUrl="https://a.r10.to/hgOjOo"
+/>
 
+<p className="mb-2 mt-6 font-bold text-green-800">
+  SRIXON ZXi MAXを楽天で見る
+</p>
         <ShopButtons
   rakutenUrl="https://hb.afl.rakuten.co.jp/ichiba/560f9f42.bc144096.560f9f43.88416c4d/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falpen%2F6010560314%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
 />
