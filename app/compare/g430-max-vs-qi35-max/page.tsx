@@ -98,7 +98,7 @@ alt="TaylorMade Qi35 MAX"
   TaylorMade Qi35 MAXを楽天で見る
 </p>
 <ShopButtons
-  rakutenUrl="https://a.r10.to/hgxL18"
+  rakutenUrl="https://a.r10.to/hFAL83"
 />
         <div className="mt-8">
           <Link href="/" className="font-bold text-green-700">
