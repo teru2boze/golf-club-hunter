@@ -98,10 +98,18 @@ alt="PING G430 MAX 10K"
 <p className="mt-4 text-gray-700">
   迷ったら、最新モデルの総合力を重視するならQi35 MAX、曲がりにくさと直進性を最優先するならG430 MAX 10Kがおすすめです。
 </p>
+<p className="mb-2 font-bold text-green-800">
+  PING G430 MAX 10Kを楽天で見る
+</p>
       <ShopButtons
   rakutenUrl="https://hb.afl.rakuten.co.jp/ichiba/5641c0c9.450a6d39.5641c0ca.f92b1a44/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farigaen%2F131-24-g4dmx10-crm%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
 />
-
+<p className="mb-2 mt-6 font-bold text-green-800">
+  TaylorMade Qi35 MAXを楽天で見る
+</p>
+<ShopButtons
+  rakutenUrl="https://hb.afl.rakuten.co.jp/ichiba/569b9f54.291d7bde.569b9f55.7e39afbb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnumber7%2Ftmjdr00307a%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
+/>
         <div className="mt-8">
           <Link href="/" className="font-bold text-green-700">
             ← ゴルフクラブ診断に戻る
