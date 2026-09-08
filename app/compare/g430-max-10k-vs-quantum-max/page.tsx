@@ -88,6 +88,16 @@ alt="Callaway QUANTUM MAX"
             </tbody>
           </table>
         </div>
+<p className="mb-2 font-bold text-green-800">
+  PING G430 MAX 10Kを楽天で見る
+  </p>
+  <ShopButtons
+  rakutenUrl="https://hb.afl.rakuten.co.jp/ichiba/5641c0c9.450a6d39.5641c0ca.f92b1a44/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farigaen%2F131-24-g4dmx10-crm%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
+/>
+
+<p className="mb-2 mt-6 font-bold text-green-800">
+  Callaway QUANTUM MAXを楽天で見る
+</p>
 
        <ShopButtons
   rakutenUrl="https://hb.afl.rakuten.co.jp/ichiba/560db221.a55c216e.560db222.00b73eb6/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvictoriagolf%2F109041047014%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MCwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
